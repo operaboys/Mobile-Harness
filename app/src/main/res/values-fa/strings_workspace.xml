@@ -4,7 +4,7 @@
     <!-- Antigravity Setup in Workspace -->
     <string name="ws_agy_setup_title">راه‌اندازی Antigravity</string>
     <string name="ws_agy_connect_google">اتصال حساب گوگل</string>
-    <string name="ws_agy_connect_desc">PocketDev CLI رسمی agy گوگل را در محیط لینوکس خصوصی خود اجرا می‌کند. گوگل احراز هویت را انجام می‌دهد و agy نشست ذخیره شده را مالک است.</string>
+    <string name="ws_agy_connect_desc">موبایل هارنس CLI رسمی agy گوگل را در محیط لینوکس خصوصی خود اجرا می‌کند. گوگل احراز هویت را انجام می‌دهد و agy نشست ذخیره شده را مالک است.</string>
     <string name="ws_agy_starting_login">در حال شروع ورود رسمی Antigravity…</string>
     <string name="ws_agy_completing_signin">در حال تکمیل ورود با گوگل…</string>
     <string name="ws_agy_signin_opened">ورود با گوگل در مرورگر شما باز شد. کد یک‌بار مصرف نمایش داده شده پس از تأیید را کپی کنید.</string>
@@ -13,7 +13,7 @@
     <string name="ws_agy_complete_signin">تکمیل ورود</string>
     <string name="ws_agy_connected_as">متصل به عنوان %1$s</string>
     <string name="ws_agy_google_connected">حساب گوگل متصل شد</string>
-    <string name="ws_agy_auto_approval_warning">تأیید خودکار ابزار برای Antigravity فعال است. می‌تواند فایل‌های پروژه را ویرایش و دستورات را بدون تأیید اجرا کند. تغییرات همچنان در PocketDev قابل بررسی هستند.</string>
+    <string name="ws_agy_auto_approval_warning">تأیید خودکار ابزار برای Antigravity فعال است. می‌تواند فایل‌های پروژه را ویرایش و دستورات را بدون تأیید اجرا کند. تغییرات همچنان در موبایل هارنس قابل بررسی هستند.</string>
 
     <!-- Toolchains & Bundles -->
     <string name="ws_selected">انتخاب شده</string>
@@ -88,7 +88,7 @@
     <string name="ws_github_signin">ورود با GitHub</string>
     <string name="ws_github_starting">در حال شروع ورود به GitHub…</string>
     <string name="ws_github_enter_code">این کد یک‌بار مصرف را در صفحه GitHub که در مرورگر باز شده وارد کنید.</string>
-    <string name="ws_github_tap_code">برای کپی روی کد ضربه بزنید. PocketDev پس از تأیید به طور خودکار متصل خواهد شد.</string>
+    <string name="ws_github_tap_code">برای کپی روی کد ضربه بزنید. موبایل هارنس پس از تأیید به طور خودکار متصل خواهد شد.</string>
     <string name="ws_github_new_code">تولید کد جدید</string>
     <string name="ws_github_select_repo">انتخاب مخزن</string>
     <string name="ws_github_refresh_repos">بروزرسانی مخازن</string>
