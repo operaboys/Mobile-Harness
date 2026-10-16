@@ -31,7 +31,7 @@
     <string name="fm_failed">عملیات کامل نشد: %1$s</string>
     <string name="fm_busy">ابتدا وظیفه در حال اجرا، دستور ترمینال، ساخت یا خروجی را متوقف کنید</string>
     <string name="fm_share_title">اشتراک‌گذاری %1$s</string>
-    <string name="fm_too_large">%1$s بزرگتر از ۱۰ مگابایت است</string>
+    <string name="fm_too_large">%1$s بزرگتر از ۱۰۰ مگابایت است</string>
     <string name="fm_protected">این آیتم محافظت شده است و نمی‌توان آن را تغییر داد</string>
     
     <!-- Plurals for Uploads -->
