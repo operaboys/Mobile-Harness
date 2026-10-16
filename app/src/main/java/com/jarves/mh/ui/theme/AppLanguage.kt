@@ -11,6 +11,7 @@ enum class AppLanguage(
     CHINESE("zh", "Chinese (Simplified)", "简体中文"),
     ARABIC("ar", "Arabic", "العربية"),
     HINDI("hi", "Hindi", "हिन्दी"),
+    PERSIAN( "fa ",  "Persian ",  "فارسی "),
     RUSSIAN("ru", "Russian", "Русский");
 
     companion object {
