@@ -18,18 +18,29 @@ jobs:
           java-version: '17'
           distribution: 'temurin'
           
-      - name: Setup Android SDK & NDK
+      - name: Setup Android Command-line Tools
         run: |
-          sdkmanager --install "ndk;26.1.10909125" "platforms;android-36" "build-tools;35.0.0"
+          sudo apt-get update && sudo apt-get install -y wget unzip
+          wget https://dl.google.com/android/repository/commandlinetools-linux-11076708_latest.zip -O cmdline-tools.zip
+          unzip -q cmdline-tools.zip -d /tmp/cmdline
+          mkdir -p $HOME/Android/Sdk/cmdline-tools/latest
+          mv /tmp/cmdline/cmdline-tools/* $HOME/Android/Sdk/cmdline-tools/latest/
+          echo "ANDROID_HOME=$HOME/Android/Sdk" >> $GITHUB_ENV
+          echo "$HOME/Android/Sdk/cmdline-tools/latest/bin" >> $GITHUB_PATH
+          
+      - name: Install NDK and Build Tools
+        run: |
+          yes | sdkmanager --licenses
+          sdkmanager "ndk;26.1.10909125" "platforms;android-36" "build-tools;35.0.0"
           echo "ANDROID_NDK_HOME=$ANDROID_HOME/ndk/26.1.10909125" >> $GITHUB_ENV
           
       - name: Grant execute permission for gradlew
         run: chmod +x gradlew
         
-      - name: Build Debug APK with Stacktrace
+      - name: Build Debug APK
         run: ./gradlew assembleDebug --stacktrace --no-daemon
         env:
-          ORG_GRADLE_PROJECT_jvmArgs: "-Xmx4g -XX:+HeapDumpOnOutOfMemoryError"
+          ORG_GRADLE_PROJECT_jvmArgs: "-Xmx4g"
           
       - name: Upload APK Artifact
         if: success()
