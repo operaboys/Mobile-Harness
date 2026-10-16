@@ -90,8 +90,8 @@
     <string name="an_health_storage_title">فضای خالی</string>
     <string name="an_health_storage_detail">%1$d مگابایت برای ساخت و نصب APK موجود است.</string>
     <string name="an_health_install_title">مجوز نصب APK</string>
-    <string name="an_health_install_ok">PocketDev می‌تواند درخواست نصب APK کند.</string>
-    <string name="an_health_install_missing">به PocketDev اجازه نصب برنامه‌های ناشناخته را بدهید.</string>
+    <string name="an_health_install_ok">موبایل هارنس می‌تواند درخواست نصب APK کند.</string>
+    <string name="an_health_install_missing">به موبایل هارنس اجازه نصب برنامه‌های ناشناخته را بدهید.</string>
     <string name="an_health_apk_title">APK دیباگ</string>
     <string name="an_health_apk_missing">هنوز هیچ APK دیباگی ساخته نشده است.</string>
     <string name="an_health_apk_stale">آخرین APK قدیمی‌تر از کد منبع پروژه است.</string>
