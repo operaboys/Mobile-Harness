@@ -8,6 +8,10 @@ on:
 jobs:
   build:
     runs-on: ubuntu-24.04
+    # حذف متغیر مزاحم در سطح کل جاب
+    env:
+      ANDROID_SDK_ROOT: "" 
+      
     steps:
       - name: Checkout code
         uses: actions/checkout@v4
@@ -27,8 +31,9 @@ jobs:
           mv /tmp/cmdline/cmdline-tools/* $HOME/Android/Sdk/cmdline-tools/latest/
           echo "ANDROID_HOME=$HOME/Android/Sdk" >> $GITHUB_ENV
           echo "$HOME/Android/Sdk/cmdline-tools/latest/bin" >> $GITHUB_PATH
-          # حذف متغیر مزاحم که باعث تداخل میشه
+          # اطمینان صددرصدی از حذف متغیر قدیمی
           unset ANDROID_SDK_ROOT
+          echo "ANDROID_SDK_ROOT=" >> $GITHUB_ENV
           
       - name: Install NDK and Build Tools
         run: |
@@ -43,6 +48,8 @@ jobs:
         run: ./gradlew assembleDebug --stacktrace --no-daemon
         env:
           ORG_GRADLE_PROJECT_jvmArgs: "-Xmx4g"
+          # حذف مجدد در لحظه اجرای گریدل
+          ANDROID_SDK_ROOT: ""
           
       - name: Upload APK Artifact
         if: success()
