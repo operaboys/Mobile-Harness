@@ -7,30 +7,32 @@ on:
 
 jobs:
   build:
-    runs-on: ubuntu-24.04 # استفاده از نسخه جدیدتر اوبونتو
+    runs-on: ubuntu-24.04
     steps:
       - name: Checkout code
         uses: actions/checkout@v4
         
       - name: Set up JDK 17
-        uses: actions/setup-java@v5 # آپدیت به v5 برای رفع اخطار
+        uses: actions/setup-java@v5
         with:
           java-version: '17'
           distribution: 'temurin'
           
-      - name: Setup Android SDK
-        uses: android-actions/setup-android@v3
-        with:
-          cmdline-tools-version: 9862592
-          packages: 'ndk;26.1.10909125' # نصب NDK از طریق packages
-        
+      - name: Setup Android SDK & NDK
+        run: |
+          sdkmanager --install "ndk;26.1.10909125" "platforms;android-36" "build-tools;35.0.0"
+          echo "ANDROID_NDK_HOME=$ANDROID_HOME/ndk/26.1.10909125" >> $GITHUB_ENV
+          
       - name: Grant execute permission for gradlew
         run: chmod +x gradlew
         
-      - name: Build Debug APK
-        run: ./gradlew assembleDebug --stacktrace
-        
+      - name: Build Debug APK with Stacktrace
+        run: ./gradlew assembleDebug --stacktrace --no-daemon
+        env:
+          ORG_GRADLE_PROJECT_jvmArgs: "-Xmx4g -XX:+HeapDumpOnOutOfMemoryError"
+          
       - name: Upload APK Artifact
+        if: success()
         uses: actions/upload-artifact@v4
         with:
           name: mobile-harness-persian-debug
