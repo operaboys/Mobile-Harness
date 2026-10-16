@@ -144,7 +144,7 @@
     <string name="vm_attachment_unavailable">ضمیمه در دسترس نیست</string>
     <string name="vm_no_app_for_attachment">هیچ برنامه‌ای برای باز کردن این ضمیمه وجود ندارد</string>
     <string name="vm_attachment_unsupported_type">فقط تصاویر و فایل‌های متنی پشتیبانی می‌شوند</string>
-    <string name="vm_attachment_too_large">%1$s بزرگتر از ۵ مگابایت است</string>
+    <string name="vm_attachment_too_large">%1$s بزرگتر از ۲۵ مگابایت است</string>
     <string name="vm_unsafe_attachment_folder">پوشه ضمیمه ناامن است</string>
     <string name="vm_read_named_failed">خواندن %1$s ممکن نبود</string>
     
