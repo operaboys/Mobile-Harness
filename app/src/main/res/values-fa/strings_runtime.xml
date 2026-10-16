@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Runtime installation, bridge status, notifications, and execution messages. -->
+<resources>
+    <!-- Installation Status & Errors -->
+    <string name="rt_install_incomplete">راه‌اندازی هسته رانتایم ناقص است. موبایل هارنس را دوباره باز کنید تا تعمیر شود.</string>
+    <string name="rt_install_unsupported_arch">معماری پشتیبانی نمی‌شود: موبایل هارنس به دستگاه یا شبیه‌ساز ARM64 نیاز دارد</string>
+    <string name="rt_install_preparing_runtime">در حال آماده‌سازی رانتایم توسعه خصوصی</string>
+    <string name="rt_install_unpacking_core">در حال تأیید و استخراج رانتایم Core</string>
+    <string name="rt_install_git_base_tools">در حال نصب Git و ابزارهای پایه</string>
+    <string name="rt_install_verify_failed">%1$s قابل تأیید نبود</string>
+    <string name="rt_install_update_verify_failed">بروزرسانی %1$s قابل تأیید نبود</string>
+    <string name="rt_install_setup_complete">راه‌اندازی کامل شد</string>
+    <string name="rt_install_ready">%1$s آماده است</string>
+    <string name="rt_install_version_ready">%1$s %2$s آماده است</string>
+    
+    <!-- Downloads & Agent Installs -->
+    <string name="rt_install_github_needs_online">ورود GitHub به نسخه آنلاین PocketDev نیاز دارد.</string>
+    <string name="rt_install_downloading_github_cli">در حال دانلود GitHub CLI رسمی</string>
+    <string name="rt_install_downloading_version">در حال دانلود %1$s %2$s</string>
+    <string name="rt_install_installing_version">در حال نصب %1$s %2$s</string>
+    <string name="rt_install_downloading_named">در حال دانلود %1$s</string>
+    <string name="rt_install_installing_named">در حال نصب %1$s</string>
+    <string name="rt_install_newer_release">نسخه جدیدتری از %1$s منتشر شده. قبل از بروزرسانی دوباره بررسی کنید.</string>
+    <string name="rt_install_dsh_update_failed">بروزرسانی DeepSeek Harness شکست خورد؛ نسخه نصب‌شده حفظ شد</string>
+    
+    <!-- Toolchain Management -->
+    <string name="rt_install_stack_ready">ابزارهای %1$s آماده هستند</string>
+    <string name="rt_install_web_not_removable">ابزارهای وب بخشی از رانتایم اصلی هستند و قابل حذف نیستند</string>
+    <string name="rt_install_removing_stack">در حال حذف ابزارهای %1$s</string>
+    <string name="rt_install_stack_removed">%1$s حذف شد</string>
+    <string name="rt_install_checking_node">در حال بررسی Node.js و npm</string>
+    <string name="rt_install_python">در حال نصب Python، pip و venv</string>
+    <string name="rt_install_python_verify_failed">تأیید Python شکست خورد (در اجرای بعدی تلاش مجدد می‌شود): %1$s</string>
+    <string name="rt_install_cpp">در حال نصب کامپایلرهای C/C++ و ابزارهای ساخت</string>
+    <string name="rt_install_php">در حال نصب PHP و افزونه‌های رایج</string>
+    <string name="rt_install_stack_installed">%1$s نصب شد</string>
+    <string name="rt_install_android_tools">در حال نصب ابزارهای توسعه اندروید</string>
+    <string name="rt_install_bundle_tools_installed">ابزارهای %1$s نصب شدند</string>
+    <string name="rt_install_loading_bundle">در حال بارگذاری بسته %1$s</string>
+    <string name="rt_install_downloading_bundle">در حال دانلود بسته %1$s</string>
+    <string name="rt_install_downloading_node">در حال دانلود Node.js %1$s LTS</string>
+    <string name="rt_install_node">در حال نصب Node.js و npm</string>
+    <string name="rt_install_updating_ubuntu">در حال بروزرسانی محیط اوبونتوی خصوصی</string>
+    <string name="rt_install_ubuntu_maintenance_failed">نگهداری اوبونتو تکمیل نشد</string>
+    <string name="rt_install_could_not_install">نصب ممکن نبود: %1$s</string>
+    <string name="rt_install_could_not_remove">حذف ممکن نبود: %1$s</string>
+    <string name="rt_install_command_completed">دستور تکمیل شد</string>
+    <string name="rt_install_command_failed">دستور شکست خورد (خروج %1$d)</string>
+    <string name="rt_install_checking_files">در حال بررسی فایل‌های رانتایم خصوصی</string>
+    <string name="rt_install_preparing_bridge">در حال آماده‌سازی پل رانتایم اندروید</string>
+    <string name="rt_install_runtime_ready">رانتایم خصوصی آماده است</string>
+    <string name="rt_install_download_failed_http">دانلود با خطای HTTP %1$d مواجه شد</string>
+    
+    <!-- Setup Flow & Notifications -->
+    <string name="rt_setup_preparing_workspace">در حال آماده‌سازی فضای کاری کدنویسی خصوصی شما</string>
+    <string name="rt_setup_ready">موبایل هارنس آماده است</string>
+    <string name="rt_setup_offline">به وای‌فای یا داده موبایل متصل شوید، سپس راه‌اندازی را ادامه دهید.</string>
+    <string name="rt_setup_dpkg_interrupted">اندروید راه‌اندازی لینوکس را قطع کرد. موبایل هارنس هنگام تلاش مجدد آن را تعمیر خواهد کرد.</string>
+    <string name="rt_setup_failed_generic">موبایل هارنس نتوانست راه‌اندازی را تکمیل کند.</string>
+    <string name="rt_setup_paused">راه‌اندازی متوقف شد</string>
+    <string name="rt_setup_notification_title">در حال راه‌اندازی موبایل هارنس</string>
+    <string name="rt_setup_stop">توقف راه‌اندازی</string>
+    <string name="rt_setup_needs_attention">راه‌اندازی نیاز به توجه دارد</string>
+    <string name="rt_setup_ready_detail">فضای کاری کدنویسی خصوصی شما آماده است.</string>
+    <string name="rt_setup_channel_name">راه‌اندازی موبایل هارنس</string>
+    <string name="rt_setup_channel_description">پیشرفت دانلود و نصب محیط کدنویسی خصوصی را نشان می‌دهد</string>
+    
+    <!-- Execution & Background Tasks -->
+    <string name="rt_exec_default_project">پروژه شما</string>
+    <string name="rt_exec_default_title">موبایل هارنس در حال کار است</string>
+    <string name="rt_exec_stopping">در حال توقف ایمن…</string>
+    <string name="rt_exec_working_in">در حال کار در %1$s</string>
+    <string name="rt_exec_task_completed">وظیفه تکمیل شد</string>
+    <string name="rt_exec_finished_in">موبایل هارنس کار در %1$s را تمام کرد.</string>
+    <string name="rt_exec_task_attention">وظیفه نیاز به توجه دارد</string>
+    <string name="rt_exec_could_not_finish">موبایل هارنس نتوانست وظیفه را تکمیل کند.</string>
+    <string name="rt_exec_stop_task">توقف وظیفه</string>
+    <string name="rt_exec_channel_running">در حال اجرای وظایف کدنویسی</string>
+    <string name="rt_exec_channel_running_description">پیشرفت را هنگام کار موبایل هارنس در پس‌زمینه نشان می‌دهد</string>
+    <string name="rt_exec_channel_results">نتایج وظیفه</string>
+    <string name="rt_exec_channel_results_description">وقتی وظیفه کدنویسی تمام می‌شود یا نیاز به توجه دارد اطلاع می‌دهد</string>
+    
+    <!-- Bridge & Agent Status -->
+    <string name="rt_bridge_starting">در حال شروع %1$s…</string>
+    <string name="rt_bridge_thinking">در حال فکر کردن…</string>
+    <string name="rt_bridge_working">%1$s در حال کار است…</string>
+    <string name="rt_bridge_running_tool">در حال اجرای %1$s · %2$s</string>
+    <string name="rt_bridge_finished_in">%1$s وظیفه را در %2$s تمام کرد.</string>
+    <string name="rt_bridge_finished">%1$s وظیفه را تمام کرد.</string>
+    
+    <!-- Diff & APK Handling -->
+    <string name="rt_diff_file_too_large">فایل برای پیش‌نمایش امن بسیار بزرگ است. واگرد و نگهداری همچنان کار می‌کنند.</string>
+    <string name="rt_diff_binary_changed">فایل باینری تغییر کرد</string>
+    <string name="rt_diff_too_large">تفاوت برای نمایش بسیار بزرگ است (%1$d → %2$d خط). واگرد و نگهداری همچنان کار می‌کنند.</string>
+    <string name="rt_apk_install_failed">نصب شکست خورد</string>
+    <string name="rt_apk_installed_open_launcher">%1$s نصب شد. آن را از لانچر خود باز کنید.</string>
+    <string name="rt_apk_invalid">APK معتبری تولید نشد: %1$s</string>
+    
+    <!-- Antigravity Sign-in Flow -->
+    <string name="rt_agy_connected_as">متصل به عنوان %1$s</string>
+    <string name="rt_agy_install_first">قبل از ورود، Antigravity CLI را نصب کنید.</string>
+    <string name="rt_agy_starting">در حال شروع ورود گوگل…</string>
+    <string name="rt_agy_oauth_selected">OAuth گوگل انتخاب شد — در انتظار URL ورود مرورگر…</string>
+    <string name="rt_agy_finish_sign_in">ورود با گوگل را تمام کنید، سپس کد یک‌بار مصرف را جایگذاری کنید.</string>
+    <string name="rt_agy_google_connected">حساب گوگل متصل شد</string>
+    <string name="rt_agy_finishing_setup">گوگل متصل شد — در حال تکمیل راه‌اندازی خصوصی Antigravity…</string>
+    <string name="rt_agy_auth_failed">احراز هویت گوگل شکست خورد. یک تلاش ورود جدید شروع کنید.</string>
+    <string name="rt_agy_closed_early">ورود Antigravity قبل از تولید URL مجوز بسته شد (خروج %1$d).</string>
+    <string name="rt_agy_sign_in_failed">ورود Antigravity شکست خورد</string>
+    <string name="rt_agy_paste_code">کد مجوز از گوگل را جایگذاری کنید</string>
+    <string name="rt_agy_start_again">ورود گوگل را دوباره شروع کنید</string>
+    <string name="rt_agy_session_expired">نشست ورود منقضی شد. دوباره شروع کنید.</string>
+    <string name="rt_agy_completing">در حال تکمیل ورود گوگل…</string>
+    <string name="rt_agy_signing_out">در حال خروج از Antigravity…</string>
+    <string name="rt_agy_remove_credential_failed">حذف اعتبارنامه رسمی Antigravity ممکن نبود. حساب شما همچنان متصل است.</string>
+    <string name="rt_agy_logout_incomplete">خروج از Antigravity تکمیل نشد.</string>
+    <string name="rt_agy_signed_out">خارج شدید</string>
+    <string name="rt_agy_logout_failed">خروج از Antigravity ممکن نبود</string>
+    
+    <!-- API & Provider Validation -->
+    <string name="rt_api_enter_base_url">ابتدا یک آدرس پایه وارد کنید.</string>
+    <string name="rt_api_no_model_list">این ارائه‌دهنده لیست مدل را در معرض قرار نداده است. می‌توانید نام مدل سفارشی وارد کنید.</string>
+    <string name="rt_api_empty_model_list">ارائه‌دهنده پاسخ داد، اما لیست مدل خالی یا پشتیبانی‌نشده بود.</string>
+    <string name="rt_api_check_saved_key">کلید API ذخیره‌شده را بررسی کنید، سپس دوباره بروزرسانی را امتحان کنید.</string>
+    <string name="rt_api_required_fields">آدرس پایه، مدل و کلید API الزامی هستند.</string>
+    <string name="rt_api_connection_verified">اتصال تأیید شد.</string>
+    <string name="rt_api_check_key">این کلید API را بررسی کنید یا کلید ذخیره‌شده دیگری انتخاب کنید.</string>
+    <string name="rt_api_label_rejected">رد شد</string>
+    <string name="rt_api_check_base_url">آدرس پایه و پروتکل دروازه انتخاب‌شده را بررسی کنید.</string>
+    <string name="rt_api_label_endpoint_error">خطای پایانه</string>
+    <string name="rt_api_refresh_models">لیست مدل را بروزرسانی کنید یا مدل دیگری انتخاب کنید.</string>
+    <string name="rt_api_label_model_error">خطای مدل</string>
+    <string name="rt_api_rate_limited_retry">لحظه‌ای صبر کنید، سپس دوباره تلاش کنید یا از کلید API دیگری استفاده کنید.</string>
+    <string name="rt_api_label_rate_limited">محدودیت نرخ</string>
+    <string name="rt_api_provider_unavailable">ارائه‌دهنده موقتاً در دسترس نیست. کمی بعد دوباره تلاش کنید.</string>
+    <string name="rt_api_label_provider_error">خطای ارائه‌دهنده</string>
+    <string name="rt_api_review_settings">تنظیمات مدل، پروتکل و پایانه را بررسی کنید.</string>
+    <string name="rt_api_label_request_failed">درخواست شکست خورد</string>
+    <string name="rt_api_check_connection">اتصال خود را بررسی کنید و دوباره تلاش کنید.</string>
+    <string name="rt_api_label_timed_out">مهلت زمانی تمام شد</string>
+    <string name="rt_api_check_internet">اتصال اینترنت و تنظیمات ارائه‌دهنده را بررسی کنید.</string>
+    <string name="rt_api_label_network_error">خطای شبکه</string>
+    <string name="rt_api_network_failed">اتصال شبکه شکست خورد</string>
+    <string name="rt_api_rate_limit_reached">محدودیت نرخ ارائه‌دهنده رسید. لحظه‌ای صبر کنید و دوباره تلاش کنید.</string>
+    <string name="rt_api_unavailable_http">ارائه‌دهنده موقتاً در دسترس نیست (HTTP %1$d).</string>
+    <string name="rt_api_http_error">ارائه‌دهنده HTTP %1$d را بازگرداند. URL و دسترسی حساب را بررسی کنید.</string>
+    
+    <!-- GitHub & Update Errors -->
+    <string name="rt_gh_cancelled">مجوز GitHub لغو شد</string>
+    <string name="rt_gh_code_expired">کد ورود GitHub منقضی شد. دوباره تلاش کنید.</string>
+    <string name="rt_gh_sign_in_failed">ورود GitHub شکست خورد</string>
+    <string name="rt_gh_http_error">GitHub خطای HTTP %1$d را بازگرداند</string>
+    <string name="rt_update_download_failed">دانلود بروزرسانی شکست خورد (HTTP %1$d)</string>
+    <string name="rt_update_checksum_failed">APK دانلودشده تأیید SHA-256 را پاس نکرد</string>
+    <string name="rt_update_prepare_failed">آماده‌سازی بروزرسانی دانلودشده ممکن نبود</string>
+    <string name="rt_update_invalid_apk">فایل دانلودشده یک APK معتبر نیست</string>
+    <string name="rt_update_package_mismatch">نام بسته بروزرسانی با موبایل هارنس مطابقت ندارد</string>
+    <string name="rt_update_version_mismatch">نسخه بروزرسانی با مانیفست آن مطابقت ندارد</string>
+    <string name="rt_update_signature_mismatch">بروزرسانی با کلید امضای برنامه نصب‌شده امضا نشده است</string>
+    <string name="rt_api_http_public">http:// ساده فقط برای آدرس‌های شبکه محلی (مثل 192.168.x.x، 10.x.x.x، Tailscale یا .local) مجاز است. برای این سرور از https:// استفاده کنید.</string>
+</resources>

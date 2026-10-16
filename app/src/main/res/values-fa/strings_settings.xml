@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Settings screen: AI providers, keys, models, agents, and update channels. -->
+<resources>
+    <!-- Status & Active States -->
+    <string name="st_active">فعال</string>
+    <string name="st_active_intelligence_model">مدل هوش فعال</string>
+    <string name="st_active_key_changed_for">کلید API فعال برای %1$s تغییر کرد.</string>
+    <string name="st_active_now_switch">اکنون فعال · برای تغییر روی کلید دیگری ضربه بزنید</string>
+    <string name="st_add_key_plus">+ افزودن کلید</string>
+    <string name="st_allow_provider_fallbacks">اجازه به جایگزینی ارائه‌دهنده</string>
+    <string name="st_allow_provider_fallbacks_help">برای استفاده فقط از ارائه‌دهندگان بالا، خاموش کنید.</string>
+    
+    <!-- Antigravity Specific -->
+    <string name="st_antigravity_approval_warning">Antigravity با تأیید خودکار ابزار اجرا می‌شود. می‌تواند فایل‌ها را ویرایش و دستورات را در پروژه انتخابی اجرا کند. قبل از نگهداری تغییرات تولید شده، آن‌ها را بررسی کنید.</string>
+    <string name="st_antigravity_model_id">شناسه مدل Antigravity</string>
+    <string name="st_available_for_antigravity">%1$d موجود برای Antigravity</string>
+    <string name="st_required_for_antigravity">الزامی برای Antigravity</string>
+    <string name="st_official_antigravity_cli">CLI رسمی Antigravity</string>
+    <string name="st_log_out_antigravity">خروج از Antigravity</string>
+    
+    <!-- API Keys & Credentials -->
+    <string name="st_api_key_added_for">کلید API برای %1$s اضافه شد.</string>
+    <string name="st_api_key_removed_from">کلید API از %1$s حذف شد.</string>
+    <string name="st_base_url_required">آدرس پایه الزامی است</string>
+    <string name="st_checking_connection">در حال بررسی اتصال…</string>
+    <string name="st_checking_connection_plain">بررسی اتصال</string>
+    <string name="st_choose_provider">انتخاب ارائه‌دهنده</string>
+    <string name="st_claude_setup_token_hint">دستور `claude setup-token` را روی کامپیوتری که به اشتراک Claude شما وارد شده اجرا کنید، سپس توکن تولید شده را در زیر ذخیره کنید.</string>
+    <string name="st_claude_token_saved_status">توکن اشتراک Claude به صورت امن ذخیره شد. یک پیام ارسال کنید تا اشتراک خود را تأیید کنید.</string>
+    <string name="st_connected">متصل</string>
+    <string name="st_connected_as">متصل به عنوان %1$s</string>
+    <string name="st_connected_with_google">متصل با گوگل</string>
+    <string name="st_copy_google_signin_url">کپی آدرس ورود گوگل</string>
+    <string name="st_current_url">فعلی: %1$s</string>
+    <string name="st_custom_endpoint_hint">آدرس پایانی ارائه‌دهنده را وارد کنید، سپس کلید API آن را در بخش اعتبارنامه‌ها اضافه کنید.</string>
+    <string name="st_disconnect">قطع اتصال</string>
+    <string name="st_discover_models_from_api">کشف مدل‌ها از API</string>
+    <string name="st_discover_need_key">لطفاً ابتدا یک کلید API وارد یا ذخیره کنید تا مدل‌ها کشف شوند.</string>
+    <string name="st_discovered_models_from">%1$d مدل از %2$s کشف شد.</string>
+    <string name="st_discovering_models_from">در حال کشف مدل‌ها از %1$s…</string>
+    <string name="st_downloading">در حال دانلود…</string>
+    <string name="st_google_account">حساب گوگل</string>
+    <string name="st_google_account_connected">حساب گوگل متصل شد</string>
+    <string name="st_key_default_name">کلید %1$s</string>
+    <string name="st_key_label">کلید: %1$s</string>
+    <string name="st_key_name_placeholder">کاری، شخصی، پشتیبان…</string>
+    <string name="st_manifest_url">آدرس مانیفست</string>
+    <string name="st_no_api_key_saved">هیچ کلید API ذخیره نشده</string>
+    <string name="st_no_subscription_token_saved">هیچ توکن اشتراک ذخیره نشده</string>
+    <string name="st_not_configured">پیکربندی نشده</string>
+    <string name="st_not_installed">نصب نشده</string>
+    <string name="st_not_signed_in">وارد نشده</string>
+    <string name="st_one_time_auth_code">کد مجوز یک‌بار مصرف</string>
+    <string name="st_open_developer_options">باز کردن گزینه‌های توسعه‌دهنده</string>
+    <string name="st_processing">در حال پردازش…</string>
+    <string name="st_processing_files">در حال پردازش فایل‌ها</string>
+    <string name="st_provider_message">ارائه‌دهنده: %1$s</string>
+    <string name="st_provider_order">ترتیب ارائه‌دهندگان</string>
+    <string name="st_provider_order_help">اسلاگ‌های اختیاری ارائه‌دهنده OpenRouter، جدا شده با کاما و به ترتیب امتحان می‌شوند.</string>
+    <string name="st_reconnect_google">اتصال مجدد با گوگل</string>
+    <string name="st_reliability_help">اگر ساخت‌های بزرگ به طور غیرمنتظره متوقف شدند، گزینه‌های توسعه‌دهنده اندروید ممکن است یک سوئیچ محدودیت فرآیند فرزند ارائه دهند.</string>
+    <string name="st_remove_named">حذف %1$s</string>
+    <string name="st_replace">جایگزینی</string>
+    <string name="st_reset">بازنشانی</string>
+    <string name="st_save_api_key">ذخیره کلید API</string>
+    <string name="st_save_subscription_token">ذخیره توکن اشتراک</string>
+    <string name="st_save_token">ذخیره توکن</string>
+    <string name="st_saved">ذخیره شد</string>
+    <string name="st_saved_api_keys">کلیدهای API ذخیره شده</string>
+    <string name="st_saved_keys_count">کلیدهای ذخیره شده (%1$d)</string>
+    <string name="st_saved_keys_failover">%1$d ذخیره شده · جایگزینی خودکار فعال</string>
+    <string name="st_saved_tokens_count">توکن‌های ذخیره شده (%1$d)</string>
+    <string name="st_saving_token">در حال ذخیره توکن…</string>
+    <string name="st_show_hide_new_key">نمایش یا مخفی کردن کلید جدید</string>
+    <string name="st_sign_in_google_flow">با جریان مرورگر گوگل وارد شوید.</string>
+    <string name="st_status">وضعیت</string>
+    <string name="st_subscription_token_saved">توکن اشتراک ذخیره شد</string>
+    <string name="st_sync">همگام‌سازی</string>
+    <string name="st_tap_to_activate">برای فعال‌سازی ضربه بزنید</string>
+    <string name="st_tap_to_make_active">برای فعال کردن ضربه بزنید</string>
+    <string name="st_test_connection_and_save">آزمایش اتصال و ذخیره</string>
+    <string name="st_testing_connection">در حال آزمایش اتصال…</string>
+    <string name="st_toggle_visibility">تغییر نمایش</string>
+    <string name="st_token_name">نام توکن</string>
+    <string name="st_tools_included_note">Node.js، npm، Git و Claude Code شامل شده‌اند.</string>
+    <string name="st_transfer_progress">%1$s از %2$s</string>
+    <string name="st_transfer_speed_eta">%1$s · %2$s باقی مانده</string>
+    <string name="st_update_agent">بروزرسانی %1$s</string>
+    <string name="st_update_badge">بروزرسانی</string>
+    <string name="st_update_channel">کانال بروزرسانی</string>
+    <string name="st_update_channel_default">ریلیز پیش‌فرض GitHub</string>
+    <string name="st_update_channel_help">فقط بیلدهای دیباگ. آدرس مانیفست موقت از Cloudflare Tunnel، ngrok یا هر سرور HTTPS که mobile-harness-update.json و APK جدیدتر را میزبانی می‌کند، جایگذاری کنید.</string>
+    <string name="st_update_channel_overridden">بازنویسی شده · فقط دیباگ</string>
+    <string name="st_use_and_check">استفاده و بررسی</string>
+    <string name="st_use_custom_model_id">استفاده از شناسه مدل سفارشی:</string>
+    
+    <!-- Model Selection & Reasoning -->
+    <string name="st_choose_model">انتخاب مدل</string>
+    <string name="st_collapse">جمع کردن</string>
+    <string name="st_complete_signin">تکمیل ورود</string>
+    <string name="st_effort_high">زیاد</string>
+    <string name="st_effort_high_caption">حداکثر عمق استدلال</string>
+    <string name="st_effort_low">کم</string>
+    <string name="st_effort_low_caption">پاسخ سریع · استدلال سبک</string>
+    <string name="st_effort_medium">متوسط</string>
+    <string name="st_effort_medium_caption">سرعت و منطق متعادل</string>
+    <string name="st_expand">باز کردن</string>
+    <string name="st_free">رایگان</string>
+    <string name="st_model">مدل</string>
+    <string name="st_models_filtered_count">%1$d از %2$d</string>
+    <string name="st_no_matching_models_found">هیچ مدل مطابق یافت نشد</string>
+    <string name="st_no_verified_agent">هیچ نصب ایجنت تأیید شده‌ای وجود ندارد</string>
+    <string name="st_reasoning_depth">عمق استدلال</string>
+    <string name="st_reasoning_effort">تلاش استدلال</string>
+    <string name="st_recommended_models">مدل‌های توصیه شده</string>
+    <string name="st_search_model_or_custom">جستجوی مدل یا تایپ شناسه سفارشی</string>
+    <string name="st_search_model_or_series">جستجوی مدل یا سری</string>
+    <string name="st_select_model">انتخاب مدل</string>
+    <string name="st_select_model_placeholder">انتخاب مدل</string>
+    <string name="st_tier_open_source">متن‌باز</string>
+    <string name="st_tier_pro_reasoning">استدلال حرفه‌ای</string>
+    <string name="st_tier_stable">پایدار</string>
+</resources>

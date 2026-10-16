@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Android build dashboard, project health, follow-up queue and related strings. -->
+<resources>
+    <!-- Project Creation & Build Actions -->
+    <string name="an_create_project">ایجاد پروژه</string>
+    <string name="an_template_info">کاتلین · حداقل SDK %1$d · هدف SDK %2$d</string>
+    <string name="an_android_build">ساخت اندروید</string>
+    <string name="an_steer">هدایت به پیگیری</string>
+    <string name="an_remove_queued_follow_up">حذف پیگیری در صف</string>
+    
+    <!-- Terminal & Process Management -->
+    <string name="an_process_project_terminal">ترمینال پروژه</string>
+    <string name="an_process_quick_terminal">ترمینال سریع</string>
+    <string name="an_exit_low_memory">حافظه کم</string>
+    <string name="an_exit_excessive_resources">مصرف بیش از حد منابع</string>
+    <string name="an_exit_native_crash">کرش نیتیو</string>
+    <string name="an_exit_crash">کرش</string>
+    
+    <!-- App Installation & Launch Status -->
+    <string name="an_app_installed_launched">برنامه نصب و اجرا شد</string>
+    <string name="an_app_installed_no_launcher">برنامه نصب شد، اما اکتیویتی قابل اجرا یافت نشد</string>
+    <string name="an_apk_installed">APK نصب شد</string>
+    <string name="an_apk_install_failed">نصب APK ناموفق بود</string>
+    <string name="an_no_changes_opened_app">بدون تغییر — برنامه نصب شده باز شد</string>
+    <string name="an_apk_already_current">APK از قبل به‌روز است</string>
+    <string name="an_build_apk_before_run">قبل از اجرای برنامه، یک APK بسازید</string>
+    <string name="an_app_launched_without_rebuild">برنامه بدون بازسازی اجرا شد</string>
+    <string name="an_app_launched">برنامه اجرا شد</string>
+    <string name="an_build_apk_before_install">قبل از نصب، یک APK بسازید</string>
+    <string name="an_installing_apk_before_launch">در حال نصب APK قبل از اجرا…</string>
+    <string name="an_installing_apk">در حال نصب APK…</string>
+    <string name="an_could_not_start_install">شروع نصب APK ممکن نبود</string>
+    <string name="an_could_not_start_installer">شروع نصب‌کننده اندروید ممکن نبود</string>
+    
+    <!-- Gradle Build Process Messages -->
+    <string name="an_stopping_gradle">در حال توقف ایمن Gradle…</string>
+    <string name="an_preparing_clean">در حال آماده‌سازی پاکسازی…</string>
+    <string name="an_preparing_build">در حال آماده‌سازی ساخت اندروید…</string>
+    <string name="an_cleaning_project">در حال پاکسازی پروژه…</string>
+    <string name="an_running_assemble">در حال اجرای assembleDebug…</string>
+    <string name="an_unsupported_build_process">فرآیند ساخت اندروید پشتیبانی نمی‌شود</string>
+    <string name="an_finding_apk">در حال یافتن APK دیباگ…</string>
+    <string name="an_no_debug_apk_found">Gradle تمام شد اما هیچ APK دیباگی یافت نشد</string>
+    <string name="an_project_cleaned">پروژه با موفقیت پاکسازی شد</string>
+    <string name="an_debug_apk_built">APK دیباگ با موفقیت ساخته شد</string>
+    <string name="an_build_cancelled">ساخت اندروید لغو شد</string>
+    <string name="an_could_not_build_apk">ساخت APK ممکن نبود</string>
+    <string name="an_resolving_dependencies">در حال حل وابستگی‌ها…</string>
+    <string name="an_compiling_source">در حال کامپایل کد منبع…</string>
+    <string name="an_processing_resources">در حال پردازش منابع اندروید…</string>
+    <string name="an_packaging_apk">در حال بسته‌بندی APK دیباگ…</string>
+    <string name="an_launching_app">در حال اجرای برنامه…</string>
+    <string name="an_operation_failed">عملیات اندروید ناموفق بود</string>
+    
+    <!-- Notifications -->
+    <string name="an_notif_cleaning_title">در حال پاکسازی پروژه اندروید</string>
+    <string name="an_notif_building_title">در حال ساخت برنامه اندروید</string>
+    <string name="an_notif_cleaning_detail">در حال اجرای Gradle clean</string>
+    <string name="an_notif_building_detail">در حال اجرای Gradle assembleDebug</string>
+    <string name="an_previous_build_interrupted">ساخت قبلی اندروید قطع شد</string>
+    
+    <!-- APK Sharing & Saving -->
+    <string name="an_share_apk">اشتراک‌گذاری APK</string>
+    <string name="an_could_not_share_apk">اشتراک‌گذاری APK ممکن نبود</string>
+    <string name="an_apk_unavailable">APK در دسترس نیست</string>
+    <string name="an_location_unavailable">مکان انتخاب شده قابل دسترسی نیست</string>
+    <string name="an_apk_saved">APK ذخیره شد</string>
+    <string name="an_could_not_save_apk">ذخیره APK ممکن نبود</string>
+    
+    <!-- Project Health Checks -->
+    <string name="an_health_tools_title">ابزارهای توسعه اندروید</string>
+    <string name="an_health_tools_ok">Android SDK، Gradle و Java نصب هستند.</string>
+    <string name="an_health_tools_missing">استک توسعه اندروید نصب نشده است.</string>
+    <string name="an_health_project_title">پروژه اندروید</string>
+    <string name="an_health_project_ok">پروژه در %1$s شناسایی شد.</string>
+    <string name="an_health_project_missing">هیچ پروژه Android Gradle شناسایی نشد.</string>
+    <string name="an_health_gradle_title">لانچر Gradle</string>
+    <string name="an_health_gradle_ok">یک لانچر Gradle موجود است.</string>
+    <string name="an_health_gradle_missing">هیچ wrapper یا فایل build گریدل یافت نشد.</string>
+    <string name="an_health_toolchain_title">Java، Gradle و AAPT2</string>
+    <string name="an_health_toolchain_ok">Java 17، Gradle و AAPT2 با موفقیت پاسخ دادند.</string>
+    <string name="an_health_toolchain_failed">یک یا چند ابزار ساخت اندروید قابل تأیید نیستند.</string>
+    <string name="an_health_sdk_title">Compile SDK</string>
+    <string name="an_health_sdk_unknown">Compile SDK قابل تشخیص نیست.</string>
+    <string name="an_health_sdk_ok">Android API %1$d نصب است.</string>
+    <string name="an_health_sdk_missing">Android API %1$d مورد نیاز است اما موجود نیست.</string>
+    <string name="an_health_network_title">شبکه وابستگی‌ها</string>
+    <string name="an_health_network_ok">اتصال اینترنت موجود است.</string>
+    <string name="an_health_network_offline">اتصال اینترنت موجود نیست؛ وابستگی‌های کش‌نشده ممکن است شکست بخورند.</string>
+    <string name="an_health_storage_title">فضای خالی</string>
+    <string name="an_health_storage_detail">%1$d مگابایت برای ساخت و نصب APK موجود است.</string>
+    <string name="an_health_install_title">مجوز نصب APK</string>
+    <string name="an_health_install_ok">PocketDev می‌تواند درخواست نصب APK کند.</string>
+    <string name="an_health_install_missing">به PocketDev اجازه نصب برنامه‌های ناشناخته را بدهید.</string>
+    <string name="an_health_apk_title">APK دیباگ</string>
+    <string name="an_health_apk_missing">هنوز هیچ APK دیباگی ساخته نشده است.</string>
+    <string name="an_health_apk_stale">آخرین APK قدیمی‌تر از کد منبع پروژه است.</string>
+    <string name="an_health_apk_ok">APK دیباگ با کد منبع فعلی پروژه مطابقت دارد.</string>
+    
+    <!-- Repair & Logcat -->
+    <string name="an_repairing_tools">در حال تعمیر ابزارهای توسعه اندروید…</string>
+    <string name="an_install_apk_before_logcat">قبل از باز کردن Logcat، APK را نصب کنید.</string>
+    <string name="an_installed_app_not_found">برنامه نصب شده یافت نشد.</string>
+    <string name="an_logcat_stopped">Logcat متوقف شد</string>
+    
+    <!-- Task Management & Follow-ups -->
+    <string name="an_build_continues_background">ساخت اندروید در پس‌زمینه ادامه دارد</string>
+    <string name="an_stop_before_new_project">قبل از ایجاد پروژه دیگر، وظیفه فعال را متوقف کنید</string>
+    <string name="an_could_not_create_android_project">ایجاد پروژه اندروید ممکن نبود</string>
+    <string name="an_android_project_created_install_tools">پروژه اندروید ایجاد شد. قبل از ساخت، ابزارهای اندروید را از تنظیمات نصب کنید.</string>
+    <string name="an_wait_terminal_then_send">صبر کنید تا دستور ترمینال تمام شود، سپس پیام خود را ارسال کنید.</string>
+    <string name="an_follow_up_queued">پیگیری در صف قرار گرفت</string>
+    <string name="an_steering_to_follow_up">در حال هدایت به این پیگیری</string>
+    
+    <!-- Error Diagnostics & Troubleshooting -->
+    <string name="an_issue_source_error">خطای کد منبع</string>
+    <string name="an_issue_open_file">فایل را باز کنید و خط گزارش شده را اصلاح کنید.</string>
+    <string name="an_issue_free_storage">فضای دستگاه را آزاد کنید، سپس ساخت را دوباره امتحان کنید.</string>
+    <string name="an_issue_check_network">اتصال شبکه را بررسی کنید یا از نسخه کش‌شده وابستگی استفاده کنید.</string>
+    <string name="an_issue_review_manifest">اعلامیه‌های تکراری یا متناقض manifest را بررسی کنید.</string>
+    <string name="an_issue_review_resources">نام‌های منابع و تشخیص‌های XML را در خروجی ساخت بررسی کنید.</string>
+    <string name="an_issue_close_apps">برنامه‌های دیگر را ببندید و دوباره امتحان کنید.</string>
+    <string name="an_issue_open_details">جزئیات ساخت را برای مشاهده کامل خروجی Gradle باز کنید.</string>
+    
+    <!-- Diagnostic Codes -->
+    <string name="an_diag_no_space">دستگاه فضای خالی کافی برای این ساخت ندارد.</string>
+    <string name="an_diag_oom">حافظه Gradle تمام شد. برنامه‌های دیگر را ببندید و دوباره امتحان کنید.</string>
+    <string name="an_diag_dependency">یک وابستگی پروژه در دسترس نیست. به اینترنت متصل شوید یا از نسخه آفلاین کش‌شده استفاده کنید.</string>
+    <string name="an_diag_manifest">ادغام Android manifest شکست خورد. لاگ ساخت را برای اعلامیه متناقض باز کنید.</string>
+    <string name="an_diag_resources">منابع اندروید قابل کامپایل نیستند. لاگ ساخت را برای فایل و خط مربوطه باز کنید.</string>
+    <string name="an_diag_compile">کامپایل Kotlin یا Java شکست خورد. لاگ ساخت را برای خطاهای منبع باز کنید.</string>
+    <string name="an_diag_gradle_version">نسخه‌های Gradle و پلاگین اندروید این پروژه ناسازگار هستند.</string>
+    <string name="an_diag_exit_code">ساخت Gradle شکست خورد (کد خروج %1$d).</string>
+    
+    <!-- Plurals for Attachments -->
+    <plurals name="an_attachments">
+        <item quantity="one">%1$d ضمیمه</item>
+        <item quantity="other">%1$d ضمیمه</item>
+    </plurals>
+</resources>

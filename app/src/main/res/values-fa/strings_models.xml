@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Display labels for model enums and related UI (ui/ModelLabels.kt). -->
+<resources>
+    <!-- Development Stacks Labels & Descriptions -->
+    <string name="md_stack_web_label">وب (JavaScript / TypeScript)</string>
+    <string name="md_stack_python_label">پایتون</string>
+    <string name="md_stack_android_label">اندروید (Java / Kotlin)</string>
+    <string name="md_stack_cpp_label">C / C++</string>
+    <string name="md_stack_php_label">PHP</string>
+    
+    <string name="md_stack_web_description">وب‌سایت‌ها و اپلیکیشن‌های وب با HTML، CSS و فریمورک‌های JS.</string>
+    <string name="md_stack_python_description">اسکریپت‌ها، اتوماسیون، کار با داده و بک‌اندهای پایتون.</string>
+    <string name="md_stack_android_description">ساخت پروژه‌های اندرویدی و نصب مستقیم روی همین گوشی.</string>
+    <string name="md_stack_cpp_description">برنامه‌های کامپایل‌شده سریع، الگوریتم‌ها و کدهای سیستمی.</string>
+    <string name="md_stack_php_description">وب‌سایت‌ها و اپلیکیشن‌ها با PHP — سایت‌های کلاسیک و پروژه‌های لاراول.</string>
+    
+    <!-- Toolchain Install Details -->
+    <string name="md_stack_web_installs">Node.js و npm (از قبل شامل شده)</string>
+    <string name="md_stack_python_installs">python3، pip، venv و ابزارهای ساخت</string>
+    <string name="md_stack_android_installs">JDK 17، Android SDK 36 ARM64، Build Tools 35، Gradle 8.14.3 و حافظه نهان Maven آفلاین</string>
+    <string name="md_stack_cpp_installs">gcc، g++، make، cmake، gdb</string>
+    <string name="md_stack_php_installs">php-cli، افزونه‌های رایج و Composer</string>
+    
+    <!-- Time Formatting -->
+    <string name="md_time_just_now">همین الان</string>
+    <string name="md_time_minutes_ago">%1$d دقیقه پیش</string>
+    <string name="md_time_hours_ago">%1$d ساعت پیش</string>
+    <string name="md_time_yesterday">دیروز</string>
+    <string name="md_time_days_ago">%1$d روز پیش</string>
+    
+    <!-- Model & Status Labels -->
+    <string name="md_model_default">%1$s پیش‌فرض (%2$s)</string>
+    <string name="md_model_opencode_default">پیش‌فرض OpenCode Zen</string>
+    <string name="md_activity_permission_denied">دسترسی رد شد</string>
+    
+    <!-- Agent Stop/Error Reasons -->
+    <string name="md_reason_stopped_by_user">متوقف شده توسط کاربر</string>
+    <string name="md_reason_no_api_key">هیچ کلید API برای %1$s ذخیره نشده است.</string>
+    <string name="md_reason_no_claude_token">هیچ توکن اشتراک Claude ذخیره نشده است. یکی را از مسیر Agent → AI provider اضافه کنید.</string>
+    <string name="md_reason_dsh_not_installed">DeepSeek Harness نصب نیست. برای نصب به Settings → Coding agent بروید.</string>
+    <string name="md_reason_antigravity_not_installed">Antigravity CLI نصب نیست. برای نصب به Settings → Coding agent بروید.</string>
+    <string name="md_chat_title_attachments">بررسی فایل‌های ضمیمه شده</string>
+    <string name="md_reason_user_not_found">کاربر یافت نشد. کلید API و حساب ارائه‌دهنده را بررسی کنید.</string>
+    <string name="md_reason_key_rejected">ارائه‌دهنده کلید API ذخیره شده را رد کرد.</string>
+    <string name="md_reason_verification_failed">تأیید رانتایم ناموفق بود. هیچ چیز تأییدنشده‌ای اجرا نشد.</string>
+    <string name="md_reason_claude_could_not_start">رانتایم واقعی Claude Code شروع نشد.</string>
+    <string name="md_reason_claude_reported_error">Claude Code خطایی گزارش داد</string>
+    <string name="md_reason_agent_exit_code">%1$s با کد خروج %2$d متوقف شد</string>
+    <string name="md_reason_antigravity_exit_code">Antigravity با کد %1$d خارج شد</string>
+    <string name="md_reason_antigravity_signin">Antigravity نیاز به ورود گوگل دارد. به Settings → Coding agent بروید.</string>
+    <string name="md_reason_antigravity_no_credits">حساب Antigravity شما اعتبار ندارد. طرح حساب را بررسی کنید یا منتظر شارژ مجدد اعتبار باشید.</string>
+    <string name="md_reason_antigravity_time_limit">Antigravity به محدودیت ۶۰ دقیقه‌ای وظیفه رسید. فایل‌های شما حفظ شدند.</string>
+    <string name="md_reason_antigravity_model_unavailable">مدل انتخابی Antigravity در دسترس نیست. مدل‌ها را در تنظیمات بروزرسانی کنید.</string>
+    <string name="md_reason_antigravity_failed">Antigravity نتوانست وظیفه را تکمیل کند.</string>
+    <string name="md_reason_antigravity_cli_missing_short">Antigravity CLI نصب نیست.</string>
+    <string name="md_reason_dsh_stopped_before_prompt">DeepSeek Harness قبل از پردازش پرامپت متوقف شد</string>
+    <string name="md_reason_dsh_no_key">هیچ کلید API به DeepSeek Harness نرسید. کلید ارائه‌دهنده را در تنظیمات دوباره ذخیره کنید.</string>
+    <string name="md_reason_dsh_could_not_start">DeepSeek Harness شروع نشد.</string>
+    <string name="md_reason_dsh_unspecified">DeepSeek Harness خطای مشخص‌نشده‌ای گزارش داد</string>
+    <string name="md_reason_dsh_turn_failed">نوبت DeepSeek Harness شکست خورد</string>
+    <string name="md_reason_dsh_blocked">DeepSeek Harness از تکمیل وظیفه مسدود شد</string>
+    
+    <!-- Tool Execution Status -->
+    <string name="md_tool_failed">ابزار شکست خورد</string>
+    <string name="md_tool_completed_successfully">با موفقیت تکمیل شد</string>
+</resources>

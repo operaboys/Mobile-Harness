@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Workspace: chats, terminal, preview, project import, and AI change review. -->
+<resources>
+    <!-- Antigravity Setup in Workspace -->
+    <string name="ws_agy_setup_title">راه‌اندازی Antigravity</string>
+    <string name="ws_agy_connect_google">اتصال حساب گوگل</string>
+    <string name="ws_agy_connect_desc">PocketDev CLI رسمی agy گوگل را در محیط لینوکس خصوصی خود اجرا می‌کند. گوگل احراز هویت را انجام می‌دهد و agy نشست ذخیره شده را مالک است.</string>
+    <string name="ws_agy_starting_login">در حال شروع ورود رسمی Antigravity…</string>
+    <string name="ws_agy_completing_signin">در حال تکمیل ورود با گوگل…</string>
+    <string name="ws_agy_signin_opened">ورود با گوگل در مرورگر شما باز شد. کد یک‌بار مصرف نمایش داده شده پس از تأیید را کپی کنید.</string>
+    <string name="ws_agy_copy_signin_url">کپی آدرس ورود</string>
+    <string name="ws_agy_authorization_code">کد مجوز</string>
+    <string name="ws_agy_complete_signin">تکمیل ورود</string>
+    <string name="ws_agy_connected_as">متصل به عنوان %1$s</string>
+    <string name="ws_agy_google_connected">حساب گوگل متصل شد</string>
+    <string name="ws_agy_auto_approval_warning">تأیید خودکار ابزار برای Antigravity فعال است. می‌تواند فایل‌های پروژه را ویرایش و دستورات را بدون تأیید اجرا کند. تغییرات همچنان در PocketDev قابل بررسی هستند.</string>
+
+    <!-- Toolchains & Bundles -->
+    <string name="ws_selected">انتخاب شده</string>
+    <string name="ws_stack_included">شامل شده</string>
+    <string name="ws_bundles_included_offline">تمام بسته‌های انتخاب شده در این نسخه آفلاین موجود هستند</string>
+    <string name="ws_download_total_mb">دانلود: %1$d مگابایت</string>
+    <string name="ws_download_c_php_later">بسته‌های C/PHP بعداً دانلود می‌شوند</string>
+    <string name="ws_download_wifi_recommended">وای‌فای توصیه می‌شود</string>
+    
+    <!-- Stack Descriptions -->
+    <string name="ws_stack_desc_web">همراه با رانتایم اصلی شامل شده</string>
+    <string name="ws_stack_desc_python">اسکریپت‌ها، اتوماسیون و بک‌اندها</string>
+    <string name="ws_stack_desc_android">ابزارهای ساخت جاوا و کاتلین</string>
+    <string name="ws_stack_desc_cpp">برنامه‌های نیتیو و ابزارهای خط فرمان</string>
+    <string name="ws_stack_desc_php">سایت‌های PHP و پروژه‌های لاراول</string>
+
+    <!-- Terminal Controls -->
+    <string name="ws_terminal_linux_title">ترمینال لینوکس</string>
+    <string name="ws_terminal_linux_subtitle">اوبونتو ۲۰.۰۴ · سندباکس PRoot</string>
+    <string name="ws_terminal_clear_output">پاک کردن خروجی</string>
+    <string name="ws_terminal_previous_command">دستور قبلی</string>
+    <string name="ws_terminal_next_command">دستور بعدی</string>
+    <string name="ws_terminal_cursor_left">حرکت مکان‌نما به چپ</string>
+    <string name="ws_terminal_cursor_right">حرکت مکان‌نما به راست</string>
+    <string name="ws_terminal_alt_modifier">تغییردهنده Alt</string>
+    <string name="ws_terminal_escape">Escape</string>
+    <string name="ws_terminal_ctrl_modifier">تغییردهنده Control؛ برای قطع اتصال C را فشار دهید</string>
+
+    <!-- Code Blocks & Actions -->
+    <string name="ws_md_code_label">کد</string>
+    <string name="ws_md_run_in_terminal">اجرا در ترمینال پروژه</string>
+    <string name="ws_md_copy_code">کپی کد</string>
+
+    <!-- Launch Screen -->
+    <string name="ws_launch_verified_cli">CLI تأیید شده · نسخه %1$s</string>
+    <string name="ws_launch_connecting_agent">در حال اتصال ایجنت محلی</string>
+    <string name="ws_launch_badge_ready">آماده</string>
+    <string name="ws_launch_badge_starting">در حال شروع</string>
+    <string name="ws_launch_private_linux">محیط لینوکس خصوصی</string>
+    <string name="ws_launch_connecting">در حال اتصال</string>
+    <string name="ws_launch_project_workspace">فضای کار پروژه</string>
+    <string name="ws_launch_restoring">در حال بازیابی</string>
+
+    <!-- Setup Logs & Errors -->
+    <string name="ws_setup_collapse_details">جمع کردن جزئیات راه‌اندازی</string>
+    <string name="ws_setup_expand_details">باز کردن جزئیات راه‌اندازی</string>
+    <string name="ws_jump_to_latest">رفتن به آخرین</string>
+    <string name="ws_error_offline">شما آفلاین هستید</string>
+    <string name="ws_error_start_failed">موبایل هارنس نتوانست راه‌اندازی را تمام کند</string>
+    <string name="ws_error_try_again_msg">لطفاً دوباره تلاش کنید.</string>
+    <string name="ws_setup_log_copied">لاگ راه‌اندازی کپی شد</string>
+    <string name="ws_copy_setup_logs">کپی لاگ‌های راه‌اندازی</string>
+    <string name="ws_open_internet_settings">باز کردن تنظیمات اینترنت</string>
+    <string name="ws_try_again">تلاش مجدد</string>
+    <string name="ws_collapse">جمع کردن</string>
+    <string name="ws_expand">باز کردن</string>
+
+    <!-- Updates -->
+    <string name="ws_update_ready">یک بروزرسانی جدید آماده است</string>
+    <string name="ws_update">بروزرسانی</string>
+    <string name="ws_create_starter_project">ایجاد پروژه مقدماتی</string>
+    <string name="ws_project_name">نام پروژه</string>
+    <string name="ws_terminal_folder">پوشه ترمینال: %1$s</string>
+    <string name="ws_create">ایجاد</string>
+
+    <!-- Git & GitHub Integration -->
+    <string name="ws_clone_git_title">شبیه‌سازی مخزن Git</string>
+    <string name="ws_clone_git_desc">آدرس HTTPS عمومی مخزن را جایگذاری کنید. تاریخچه کامل Git و شاخه فعلی حفظ خواهند شد.</string>
+    <string name="ws_https_git_url">آدرس HTTPS Git</string>
+    <string name="ws_clone_project">شبیه‌سازی پروژه</string>
+    <string name="ws_github_signin_desc">با CLI رسمی GitHub وارد شوید تا مخازن عمومی و خصوصی را مرور کنید.</string>
+    <string name="ws_github_signin">ورود با GitHub</string>
+    <string name="ws_github_starting">در حال شروع ورود به GitHub…</string>
+    <string name="ws_github_enter_code">این کد یک‌بار مصرف را در صفحه GitHub که در مرورگر باز شده وارد کنید.</string>
+    <string name="ws_github_tap_code">برای کپی روی کد ضربه بزنید. PocketDev پس از تأیید به طور خودکار متصل خواهد شد.</string>
+    <string name="ws_github_new_code">تولید کد جدید</string>
+    <string name="ws_github_select_repo">انتخاب مخزن</string>
+    <string name="ws_github_refresh_repos">بروزرسانی مخازن</string>
+    <string name="ws_github_search_repos">جستجوی مخازن</string>
+    <string name="ws_repo_private">خصوصی</string>
+    <string name="ws_repo_public">عمومی</string>
+    <string name="ws_disconnect">قطع اتصال</string>
+
+    <!-- Update Download Flow -->
+    <string name="ws_update_to">بروزرسانی به %1$s</string>
+    <string name="ws_update_default_notes">آخرین بهبودها و رفع اشکالات موبایل هارنس را دریافت کنید.</string>
+    <string name="ws_update_download_size">حجم دانلود: %1$s</string>
+    <string name="ws_update_allow_unknown_apps">به موبایل هارنس اجازه «نصب برنامه‌های ناشناخته» را بدهید. بدون این مجوز، اندروید بروزرسانی را نصب نمی‌کند.</string>
+    <string name="ws_update_downloading_progress">در حال دانلود %1$s / %2$s · %3$d%%</string>
+    <string name="ws_update_downloading">در حال دانلود %1$s</string>
+    <string name="ws_update_verified_installing">دانلود تأیید شد. در حال باز کردن نصب‌کننده اندروید…</string>
+    <string name="ws_grant_permission">اعطای مجوز</string>
+    <string name="ws_downloading_ellipsis">در حال دانلود…</string>
+    <string name="ws_download_and_install">دانلود و نصب</string>
+    <string name="ws_later">بعداً</string>
+    <string name="ws_ping_api">Ping API</string>
+
+    <!-- Task & Chat Management -->
+    <string name="ws_task_running">وظیفه در حال اجرا</string>
+    <string name="ws_terminal_running">ترمینال در حال اجرا</string>
+    <string name="ws_project_options">گزینه‌های پروژه</string>
+    <string name="ws_rename_project">تغییر نام پروژه</string>
+    <string name="ws_delete_project">حذف پروژه</string>
+    <string name="ws_delete_project_title">این پروژه حذف شود؟</string>
+    <string name="ws_delete_project_desc">چت‌ها، فایل‌ها، ضمیمه‌ها، تغییرات و تاریخچه ترمینال آن برای همیشه حذف خواهند شد.</string>
+    <string name="ws_history">تاریخچه</string>
+    <string name="ws_project_chats">چت‌های پروژه</string>
+    <string name="ws_allow_app_installs">اجازه نصب برنامه برای اجرای پروژه‌های اندروید</string>
+    <string name="ws_destructive_title">اجرای دستور بالقوه مخرب؟</string>
+    <string name="ws_destructive_desc">این دستور می‌تواند فایل‌ها را حذف کند، تاریخچه Git را بازنویسی کند یا پروژه را به طور قابل توجهی تغییر دهد.</string>
+    <string name="ws_run_anyway">در هر صورت اجرا کن</string>
+    <string name="ws_build_run_android">ساخت و اجرای برنامه اندروید</string>
+    <string name="ws_new_chat">چت جدید</string>
+    <string name="ws_finish_task_before_switch">قبل از تغییر چت، وظیفه در حال اجرا را تمام کنید.</string>
+    <string name="ws_current_chat">چت فعلی</string>
+    <string name="ws_saved_conversation">گفتگوی ذخیره شده</string>
+    <string name="ws_current">فعلی</string>
+
+    <!-- File Editor & Preview -->
+    <string name="ws_close_file">بستن فایل</string>
+    <string name="ws_copy_file_contents">کپی محتوای فایل</string>
+    <string name="ws_no_content">بدون محتوا</string>
+    <string name="ws_file_unreadable">فایل قابل خواندن نیست.</string>
+    <string name="ws_collapse_all">جمع کردن همه</string>
+    <string name="ws_export_zip">خروجی پروژه به صورت ZIP</string>
+    <string name="ws_refresh_files">بروزرسانی فایل‌ها</string>
+    <string name="ws_project_folder_detected">پوشه پروژه شناسایی شد</string>
+    <string name="ws_use_project_root_desc">از %1$s به عنوان ریشه پروژه استفاده کنید تا چت، ترمینال، تغییرات و پیش‌نمایش همگی از همان پوشه اجرا شوند.</string>
+    <string name="ws_use_project_root">استفاده از %1$s به عنوان ریشه پروژه</string>
+    <string name="ws_collapse_folder">جمع کردن پوشه</string>
+    <string name="ws_expand_folder">باز کردن پوشه</string>
+    <string name="ws_latest">جدیدترین</string>
+    <string name="ws_readonly_history">تاریخچه فقط خواندنی</string>
+    <string name="ws_readonly_blocked">پروژه دیگری دارای وظیفه در حال اجرا است. می‌توانید این چت را بخوانید، اما نمی‌توانید پیام ارسال کنید.</string>
+    <string name="ws_readonly_finished">وظیفه دیگر تمام شد. برای ادامه چت این پروژه را باز کنید.</string>
+    <string name="ws_open">باز کردن</string>
+    <string name="ws_stop_ai_task">توقف وظیفه هوش مصنوعی</string>
+    <string name="ws_worked_for">مدت زمان کار: %1$s</string>
+
+    <!-- AI Activity & Steps -->
+    <string name="ws_activity_reviewing_request">در حال بررسی درخواست و برنامه‌ریزی اقدام بعدی.</string>
+    <string name="ws_activity_reviewed_request">درخواست بررسی شد و اقدام بعدی برنامه‌ریزی شد</string>
+    <string name="ws_activity_think">فکر کردن</string>
+    <string name="ws_activity_analyzing_request">در حال تحلیل درخواست</string>
+    <string name="ws_collapse_activity">جمع کردن فعالیت</string>
+    <string name="ws_expand_activity">باز کردن فعالیت</string>
+    <string name="ws_task_stopped">وظیفه متوقف شد</string>
+    <string name="ws_task_completed">وظیفه تکمیل شد</string>
+    <string name="ws_steps_one">۱ مرحله</string>
+    <string name="ws_steps_many">%1$d مرحله</string>
+    <string name="ws_duration_hm">%1$s ساعت %2$s دقیقه</string>
+    <string name="ws_duration_ms">%1$s دقیقه %2$s ثانیه</string>
+    <string name="ws_duration_s">%1$s ثانیه</string>
+
+    <!-- Change Review & Diff -->
+    <string name="ws_remove_attachment">حذف ضمیمه</string>
+    <string name="ws_review_action">بررسی این اقدام</string>
+    <string name="ws_reject">رد کردن</string>
+    <string name="ws_allow_once">اجازه یک‌بار</string>
+    <string name="ws_project_files">فایل‌های پروژه</string>
+    <string name="ws_review_ai_changes">بررسی تمام تغییراتی که هوش مصنوعی ایجاد کرده است.</string>
+    <string name="ws_no_changes_yet">هنوز تغییری وجود ندارد</string>
+    <string name="ws_no_changes_desc">از موبایل هارنس بخواهید پروژه شما را بروزرسانی کند.</string>
+    <string name="ws_hide_diff">مخفی کردن تفاوت خط به خط</string>
+    <string name="ws_tap_review_diff">برای بررسی تفاوت ضربه بزنید</string>
+    <string name="ws_undo_file">واگرد فایل</string>
+    <string name="ws_keep_file">نگه داشتن فایل</string>
+    <string name="ws_undo_task">واگرد وظیفه</string>
+
+    <!-- Web Preview -->
+    <string name="ws_preview_use_local_url">از آدرس محلی مانند localhost:3000 استفاده کنید</string>
+    <string name="ws_preview_external_blocked">ناوبری خارجی در پیش‌نمایش پروژه مسدود است</string>
+    <string name="ws_open_url">باز کردن آدرس</string>
+    <string name="ws_refresh_preview">بروزرسانی پیش‌نمایش</string>
+</resources>

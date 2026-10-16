@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- File manager actions, dialogs, and status messages. -->
+<resources>
+    <!-- Actions & Menu Items -->
+    <string name="fm_new">جدید</string>
+    <string name="fm_new_file">فایل جدید</string>
+    <string name="fm_new_folder">پوشه جدید</string>
+    <string name="fm_upload_here">آپلود در اینجا</string>
+    <string name="fm_rename">تغییر نام</string>
+    <string name="fm_delete">حذف</string>
+    <string name="fm_share">اشتراک‌گذاری</string>
+    <string name="fm_save_copy">ذخیره کپی</string>
+    <string name="fm_more_actions">عملیات بیشتر برای %1$s</string>
+    
+    <!-- Dialogs & Inputs -->
+    <string name="fm_name">نام</string>
+    <string name="fm_create">ایجاد</string>
+    <string name="fm_delete_title">حذف %1$s؟</string>
+    <string name="fm_delete_file_desc">این فایل برای همیشه حذف خواهد شد.</string>
+    <string name="fm_delete_folder_desc">این پوشه و تمام محتویات داخل آن برای همیشه حذف خواهند شد.</string>
+    
+    <!-- Status Messages (Toasts/Snackbars) -->
+    <string name="fm_created">%1$s ایجاد شد</string>
+    <string name="fm_renamed">به %1$s تغییر نام داد</string>
+    <string name="fm_deleted">%1$s حذف شد</string>
+    <string name="fm_saved_copy">یک کپی از %1$s ذخیره شد</string>
+    
+    <!-- Errors & Warnings -->
+    <string name="fm_invalid_name">یک نام معتبر وارد کنید (بدون اسلش، نه . یا ..)</string>
+    <string name="fm_exists">%1$s از قبل وجود دارد</string>
+    <string name="fm_failed">عملیات کامل نشد: %1$s</string>
+    <string name="fm_busy">ابتدا وظیفه در حال اجرا، دستور ترمینال، ساخت یا خروجی را متوقف کنید</string>
+    <string name="fm_share_title">اشتراک‌گذاری %1$s</string>
+    <string name="fm_too_large">%1$s بزرگتر از ۱۰ مگابایت است</string>
+    <string name="fm_protected">این آیتم محافظت شده است و نمی‌توان آن را تغییر داد</string>
+    
+    <!-- Plurals for Uploads -->
+    <plurals name="fm_uploaded">
+        <item quantity="one">%1$d فایل آپلود شد</item>
+        <item quantity="other">%1$d فایل آپلود شدند</item>
+    </plurals>
+</resources>

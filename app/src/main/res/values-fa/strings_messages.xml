@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- User-visible messages produced by MainViewModel. -->
+<resources>
+    <!-- Device & Setup Messages -->
+    <string name="vm_checking_device">در حال بررسی این دستگاه…</string>
+    <string name="vm_connected_as">متصل به عنوان %1$s</string>
+    <string name="vm_browser_open_failed_signin">مرورگر باز نشد. لطفاً لینک ورود را کپی کنید.</string>
+    <string name="vm_browser_open_failed_url">مرورگر باز نشد. لطفاً لینک را کپی کنید.</string>
+    <string name="vm_linux_not_ready">محیط لینوکس هنوز آماده نیست.</string>
+    <string name="vm_process_exited_code">فرآیند با کد خروج %1$d بسته شد</string>
+    <string name="vm_error_with_message">خطا: %1$s</string>
+    <string name="vm_android_tools_missing">ابزارهای ساخت اندروید نصب نیستند. از تنظیمات → استک‌های توسعه، اندروید را اضافه کنید.</string>
+    <string name="vm_terminal_error">خطای ترمینال: %1$s</string>
+    <string name="vm_project_unavailable">پروژه دیگر در دسترس نیست.</string>
+    <string name="vm_unsupported_terminal_process">فرآیند ترمینال پشتیبانی نمی‌شود.</string>
+    <string name="vm_process_not_accepting_input">این فرآیند دیگر ورودی قبول نمی‌کند.</string>
+    <string name="vm_unsafe_project_root">مسیر ریشه پروژه ناامن است</string>
+    
+    <!-- Build & Task Coordination -->
+    <string name="vm_wait_agent_before_build">صبر کنید تا Claude ساخت پروژه را تمام کند، سپس بیلد بگیرید.</string>
+    <string name="vm_wait_terminal_before_build">صبر کنید تا دستور ترمینال پروژه تمام شود، سپس بیلد بگیرید.</string>
+    <string name="vm_building_debug_apk">در حال ساخت APK دیباگ…</string>
+    <string name="vm_no_android_project">هنوز هیچ پروژه Android Gradle یافت نشده. از Claude بخواهید آن را بسازد و منتظر پایان وظیفه بمانید.</string>
+    <string name="vm_gradle_build_failed">ساخت Gradle شکست خورد (کد خروج %1$d)</string>
+    <string name="vm_no_debug_apk">Gradle تمام شد اما هیچ APK دیباگی یافت نشد</string>
+    <string name="vm_apk_sent_to_installer">APK به نصب‌کننده اندروید ارسال شد</string>
+    <string name="vm_apk_built">APK ساخته شد. لطفاً درخواست نصب اندروید را تأیید کنید.</string>
+    <string name="vm_apk_build_failed">ساخت APK ممکن نبود</string>
+    <string name="vm_arm64_required">دستگاه ARM64 لازم است</string>
+    
+    <!-- Workspace Lifecycle -->
+    <string name="vm_preparing_workspace">در حال آماده‌سازی فضای کاری خصوصی شما</string>
+    <string name="vm_setup_paused">راه‌اندازی متوقف شد</string>
+    <string name="vm_opening_workspace">در حال باز کردن فضای کاری خصوصی</string>
+    <string name="vm_initialization_failed">راه‌اندازی اولیه Claude Code شکست خورد</string>
+    <string name="vm_installer_start_failed">شروع نصب‌کننده اندروید ممکن نبود</string>
+    <string name="vm_update_download_failed">دانلود بروزرسانی شکست خورد</string>
+    <string name="vm_setup_offline">به وای‌فای یا داده موبایل متصل شوید و دوباره تلاش کنید. اینترنت برای تکمیل راه‌اندازی اولیه ضروری است.</string>
+    <string name="vm_setup_generic_error">مشکلی در آماده‌سازی موبایل هارنس پیش آمد. لطفاً دوباره تلاش کنید.</string>
+    
+    <!-- Agent Management -->
+    <string name="vm_antigravity_sign_in_first">ابتدا وارد Antigravity شوید</string>
+    <string name="vm_stop_agent_before_switching">قبل از تغییر ایجنت، ایجنت فعلی را متوقف کنید.</string>
+    <string name="vm_preparing_named">در حال آماده‌سازی %1$s…</string>
+    <string name="vm_agent_ready">%1$s آماده است</string>
+    <string name="vm_install_failed_named">نصب %1$s ممکن نبود</string>
+    <string name="vm_checking_agent_releases">در حال بررسی نسخه‌های رسمی ایجنت…</string>
+    <string name="vm_agents_up_to_date">تمام ایجنت‌های نصب شده به‌روز هستند</string>
+    <string name="vm_agent_update_check_failed">بررسی بروزرسانی ایجنت‌ها ممکن نبود</string>
+    <string name="vm_preparing_version">در حال آماده‌سازی %1$s %2$s…</string>
+    <string name="vm_agent_updated_to">%1$s به %2$s بروزرسانی شد</string>
+    <string name="vm_update_failed_named">بروزرسانی %1$s ممکن نبود</string>
+    
+    <!-- Authentication & API -->
+    <string name="vm_submit_code_failed">ارسال کد ممکن نبود</string>
+    <string name="vm_sign_out_failed">خروج از حساب ممکن نبود</string>
+    <string name="vm_model_no_effort">این مدل قابلیت استدلال %1$s را ارائه نمی‌دهد</string>
+    <string name="vm_effort_low">کم</string>
+    <string name="vm_effort_medium">متوسط</string>
+    <string name="vm_effort_high">زیاد</string>
+    <string name="vm_antigravity_list_models_failed">لیست مدل‌های Antigravity دریافت نشد</string>
+    <string name="vm_antigravity_no_models">Antigravity مدلی بازنگرداند</string>
+    <string name="vm_antigravity_models_load_failed">بارگذاری مدل‌های Antigravity ممکن نبود</string>
+    
+    <!-- Toolchain Management -->
+    <string name="vm_stack_tools_ready">ابزارهای %1$s آماده هستند</string>
+    <string name="vm_stop_before_removing_tools">قبل از حذف ابزارها، وظایف در حال اجرا و دستورات ترمینال را متوقف کنید</string>
+    <string name="vm_removing_named">در حال حذف %1$s…</string>
+    <string name="vm_removed_named">%1$s حذف شد</string>
+    <string name="vm_remove_failed_named">حذف %1$s ممکن نبود</string>
+    
+    <!-- Connection Testing -->
+    <string name="vm_ping_sending">در حال ارسال یک درخواست تست حداقلی…</string>
+    <string name="vm_ping_success">API با موفقیت پاسخ داد</string>
+    <string name="vm_antigravity_needs_signin">Antigravity نیاز به ورود گوگل دارد</string>
+    <string name="vm_antigravity_hello">در حال سلام کردن به Antigravity…</string>
+    <string name="vm_antigravity_working">Antigravity فعال است!</string>
+    <string name="vm_antigravity_cli_missing">Antigravity CLI نصب نیست. از بخش ایجنت کدنویس آن را نصب کنید.</string>
+    <string name="vm_antigravity_reconnect">Antigravity نیاز به ورود گوگل دارد. از بخش اتصال گوگل دوباره متصل شوید.</string>
+    <string name="vm_antigravity_no_answer">Antigravity پاسخ نداد. دوباره تلاش کنید.</string>
+    
+    <!-- Chat & Tasks -->
+    <string name="vm_main_chat">چت اصلی</string>
+    <string name="vm_new_chat">چت جدید</string>
+    <string name="vm_task_continues_background">وظیفه در پس‌زمینه ادامه دارد</string>
+    <string name="vm_terminal_continues_background">دستور ترمینال در پس‌زمینه ادامه دارد</string>
+    <string name="vm_stop_before_new_project">قبل از ایجاد پروژه دیگر، وظیفه پس‌زمینه را متوقف کنید</string>
+    
+    <!-- Import & Git -->
+    <string name="vm_starter_web_project">پروژه وب مقدماتی</string>
+    <string name="vm_language_general">عمومی</string>
+    <string name="vm_reading_archive">در حال خواندن آرشیو پروژه…</string>
+    <string name="vm_project_imported">%1$s با موفقیت وارد شد</string>
+    <string name="vm_import_failed">وارد کردن شکست خورد: %1$s</string>
+    <string name="vm_invalid_zip">آرشیو ZIP نامعتبر است</string>
+    <string name="vm_zip_open_failed">ZIP انتخاب شده باز نشد</string>
+    <string name="vm_zip_too_many_files">ZIP حاوی فایل‌های بیش از حد است</string>
+    <string name="vm_zip_invalid_path">ZIP حاوی مسیر نامعتبر است</string>
+    <string name="vm_zip_unsafe_path">ZIP حاوی مسیر ناامن است</string>
+    <string name="vm_zip_too_large">پروژه استخراج شده برای فضای موجود بسیار بزرگ است</string>
+    <string name="vm_zip_no_files">ZIP فاقد فایل‌های پروژه است</string>
+    <string name="vm_import_too_large">پروژه وارد شده برای فضای موجود بسیار بزرگ است</string>
+    <string name="vm_zip_preserve_failed">ZIP انتخاب شده حفظ نشد</string>
+    
+    <!-- GitHub Integration -->
+    <string name="vm_github_connect_again">دوباره به GitHub متصل شوید</string>
+    <string name="vm_invalid_git_url">یک آدرس HTTPS عمومی معتبر Git وارد کنید</string>
+    <string name="vm_connecting_git">در حال اتصال به مخزن Git…</string>
+    <string name="vm_cloning_named">در حال شبیه‌سازی %1$s…</string>
+    <string name="vm_git_clone_failed_exit">شبیه‌سازی Git با کد خروج %1$d شکست خورد</string>
+    <string name="vm_repository_cloned">مخزن با موفقیت شبیه‌سازی شد</string>
+    <string name="vm_clone_failed">شبیه‌سازی شکست خورد: %1$s</string>
+    <string name="vm_unknown_error">خطای ناشناخته</string>
+    <string name="vm_git_https_only">فقط آدرس‌های HTTPS Git پشتیبانی می‌شوند</string>
+    <string name="vm_git_no_credentials">یک آدرس HTTPS معتبر Git بدون اعتبارنامه وارد کنید</string>
+    <string name="vm_git_local_unsupported">آدرس‌های محلی Git پشتیبانی نمی‌شوند</string>
+    <string name="vm_git_url_not_repo">آدرس باید یک مخزن Git را مشخص کند</string>
+    <string name="vm_github_preparing_signin">در حال آماده‌سازی ورود رسمی GitHub…</string>
+    <string name="vm_github_enter_code">این کد یک‌بار مصرف را در GitHub وارد کنید</string>
+    <string name="vm_github_signin_failed_exit">ورود GitHub شکست خورد (خروج %1$d)</string>
+    <string name="vm_github_account_unknown">GitHub متصل شد، اما حساب شناسایی نشد</string>
+    <string name="vm_github_connected_as">متصل به عنوان @%1$s</string>
+    <string name="vm_github_signin_failed">ورود GitHub شکست خورد</string>
+    <string name="vm_github_new_code">در حال تولید کد جدید GitHub…</string>
+    <string name="vm_loading_repositories">در حال بارگذاری مخازن…</string>
+    <string name="vm_github_repos_failed">بارگذاری مخازن GitHub ممکن نبود</string>
+    <string name="vm_github_signing_out">در حال خروج از GitHub…</string>
+    <string name="vm_github_logout_failed">خروج از GitHub ممکن نبود</string>
+    <string name="vm_signed_out">خارج شدید</string>
+    <string name="vm_github_cli_missing">GitHub CLI نصب نیست</string>
+    <string name="vm_notif_github_signin">ورود GitHub</string>
+    <string name="vm_notif_connecting_github">در حال اتصال GitHub</string>
+    
+    <!-- Export & Files -->
+    <string name="vm_project_root_set">%1$s اکنون ریشه پروژه است</string>
+    <string name="vm_stop_before_export">قبل از خروجی گرفتن، وظیفه در حال اجرا را متوقف کنید</string>
+    <string name="vm_export_location_failed">مکان انتخاب شده باز نشد</string>
+    <string name="vm_exported">%1$s خروجی گرفته شد</string>
+    <string name="vm_export_failed">خروجی گرفتن شکست خورد: %1$s</string>
+    <string name="vm_file_truncated">[فایل کوتاه شده — برای نمایش کامل بسیار بزرگ است]</string>
+    <string name="vm_read_file_failed">خواندن فایل ممکن نبود: %1$s</string>
+    <string name="vm_max_attachments">می‌توانید حداکثر %1$d فایل به هر پیام ضمیمه کنید</string>
+    <string name="vm_attach_failed">ضمیمه کردن فایل ممکن نبود</string>
+    <string name="vm_attachment_unavailable">ضمیمه در دسترس نیست</string>
+    <string name="vm_no_app_for_attachment">هیچ برنامه‌ای برای باز کردن این ضمیمه وجود ندارد</string>
+    <string name="vm_attachment_unsupported_type">فقط تصاویر و فایل‌های متنی پشتیبانی می‌شوند</string>
+    <string name="vm_attachment_too_large">%1$s بزرگتر از ۵ مگابایت است</string>
+    <string name="vm_unsafe_attachment_folder">پوشه ضمیمه ناامن است</string>
+    <string name="vm_read_named_failed">خواندن %1$s ممکن نبود</string>
+    
+    <!-- AI Reasoning & Planning -->
+    <string name="vm_antigravity_signin_before_task">قبل از شروع وظیفه، از تنظیمات وارد Antigravity شوید.</string>
+    <string name="vm_dsh_claude_unsupported">ورود اشتراک Claude توسط DeepSeek Harness پشتیبانی نمی‌شود — در تنظیمات یک ارائه‌دهنده مبتنی بر کلید انتخاب کنید.</string>
+    <string name="vm_understanding_request">در حال درک درخواست شما</string>
+    <string name="vm_preparing_safe_plan">در حال تهیه یک برنامه امن</string>
+    <string name="vm_changes_undone">تغییرات واگرد شدند</string>
+    <string name="vm_undo_unavailable">واگرد در دسترس نیست</string>
+    <string name="vm_files_restored">فایل‌ها به حالت قبل از وظیفه بازگردانده شدند</string>
+    <string name="vm_no_checkpoint">هیچ نقطه بازیابی قابل استفاده یافت نشد</string>
+    <string name="vm_changes_kept">تغییرات حفظ شدند</string>
+    <string name="vm_changes_kept_detail">تغییرات فایل وظیفه پذیرفته شد</string>
+    <string name="vm_task_completed">وظیفه تکمیل شد</string>
+    <string name="vm_agent_finished">%1$s با موفقیت تمام شد</string>
+    <string name="vm_plan_current_project">پروژه فعلی</string>
+    <string name="vm_plan_a_project_file">یک فایل پروژه</string>
+    <string name="vm_plan_create">در حال آماده‌سازی برای ایجاد %1$s</string>
+    <string name="vm_plan_update">در حال آماده‌سازی برای بروزرسانی %1$s</string>
+    <string name="vm_plan_inspect">در حال آماده‌سازی برای بررسی %1$s</string>
+    <string name="vm_plan_find">در حال آماده‌سازی برای یافتن فایل‌های منطبق پروژه</string>
+    <string name="vm_plan_search">در حال آماده‌سازی برای جستجوی %1$s در پروژه</string>
+    <string name="vm_plan_bash_files">در حال آماده‌سازی برای ایجاد یا بروزرسانی فایل‌های پروژه با Bash</string>
+    <string name="vm_plan_run">در حال آماده‌سازی برای اجرا: %1$s</string>
+    <string name="vm_plan_use_tool">در حال آماده‌سازی برای استفاده از %1$s در مرحله بعد</string>
+    <string name="vm_plan_agent_reviewing">%1$s در حال بررسی درخواست است</string>
+    <string name="vm_plan_user_asking">کاربر می‌پرسد: «%1$s»</string>
+    <string name="vm_plan_deciding">%1$s. %2$s در حال تصمیم‌گیری برای مرحله مفید بعدی است.</string>
+    <string name="vm_plan_with_tool">%1$s. %2$s.</string>
+    <string name="vm_thinking">در حال فکر کردن…</string>
+    <string name="vm_waiting_approval">منتظر تأیید</string>
+    <string name="vm_applying_approved">در حال اعمال تغییرات تأیید شده</string>
+    <string name="vm_editing_project_files">در حال ویرایش فایل‌های پروژه</string>
+    <string name="vm_action_approved">عملکرد تأیید شد</string>
+    <string name="vm_agent_continuing">%1$s در حال ادامه وظیفه است</string>
+    <string name="vm_action_rejected">عملکرد رد شد</string>
+    <string name="vm_agent_continue_without">%1$s بدون این عملکرد ادامه خواهد داد</string>
+    <string name="vm_files_changed">فایل‌ها تغییر کردند</string>
+    <string name="vm_files_more">+%1$d مورد دیگر</string>
+    <string name="vm_preview_ready">پیش‌نمایش آماده است</string>
+    <string name="vm_key_switched_toast">%1$s شکست خورد. به %2$s تغییر یافت.</string>
+    <string name="vm_api_key_switched">کلید API تغییر کرد</string>
+    <string name="vm_using_key">استفاده از %1$s</string>
+    <string name="vm_task_interrupted">وظیفه قطع شد</string>
+    <string name="vm_task_interrupted_detail">فرآیند ایجنت قبل از گزارش تکمیل متوقف شد. برای از سرگیری جلسه رسمی، این چت را ادامه دهید.</string>
+    
+    <!-- Plurals -->
+    <plurals name="vm_agent_updates_available">
+        <item quantity="one">%1$d بروزرسانی ایجنت موجود است</item>
+        <item quantity="other">%1$d بروزرسانی ایجنت موجود است</item>
+    </plurals>
+    <plurals name="vm_repositories_available">
+        <item quantity="one">%1$d مخزن موجود است</item>
+        <item quantity="other">%1$d مخزن موجود است</item>
+    </plurals>
+    <plurals name="vm_more_files_can_be_added">
+        <item quantity="one">فقط %1$d فایل دیگر می‌توان اضافه کرد</item>
+        <item quantity="other">فقط %1$d فایل دیگر می‌توان اضافه کرد</item>
+    </plurals>
+    
+    <!-- Claude Specific -->
+    <string name="vm_claude_hello">در حال درخواست پاسخ از Claude Code…</string>
+    <string name="vm_claude_working">اشتراک Claude فعال است!</string>
+</resources>
